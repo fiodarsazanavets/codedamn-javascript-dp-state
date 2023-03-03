@@ -4,10 +4,6 @@ class MobilePhoneContext {
     
     #state = new LockedScreenState();
 
-    changeState(state) {
-        this.#state = state;
-    }
-
     pressHomeButton() {
         this.#state.pressHomeButton();
     }

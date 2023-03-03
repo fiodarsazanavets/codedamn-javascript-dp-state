@@ -7,7 +7,7 @@ console.log('Pressing home button.');
 phone.pressHomeButton();
 
 console.log('Changing the phone state to unlocked.');
-phone.changeState(new UnlockedScreenState());
+// Change state here
 
 console.log('Pressing home button.');
 phone.pressHomeButton();
